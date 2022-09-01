@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    line-height: 100px;
+    background: orange;
+
+
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+}

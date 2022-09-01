@@ -1,0 +1,48 @@
+.movieGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5em;
+    padding: 25px;
+
+}
+.movies{
+    display: flex;
+    background: rgb(230, 230, 230);
+    border-radius: 15px;
+    
+    
+}
+
+h1{
+    color: #333;
+    margin-top: 30px;
+}
+.movie h4 p{
+    overflow: hidden;
+
+} 
+
+.info{
+    
+    margin-right: 20px;
+}
+.movies img{
+    margin-right: 15px;
+    box-shadow: 5px 25px 25px -18px rgba(0, 0, 0, 0.583);
+    margin: 25px;
+    border: 10px solid white;
+    border-radius: 0px 30px 0px 30px;
+}
+
+.descr{
+    font-size: 0.9rem;
+}
+
+.sortie{
+    background: white;
+    padding: 4px;
+    width: 210px;
+    border-radius: 5px;
+    text-align: center;
+    color: grey;
+}
