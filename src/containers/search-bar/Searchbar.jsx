@@ -14,8 +14,8 @@ const Searchbar = (props) => {
 
     return (
         <div className={style.container}>
-           <input type="text" value={input} onChange={e => setinput(e.target.value)} placeholder={placeholder} />
-           <button onClick={handleClick}>Search</button>
+           <input type="text" value={input} onInput={e => setinput(e.target.value)} placeholder={placeholder} />
+           <button onClick={handleClick} >Search</button>
             
         </div>
     );

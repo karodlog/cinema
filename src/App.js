@@ -7,7 +7,7 @@ import NavBar from './containers/nav-bar/NavBar';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div className="App">
       <NavBar />
       <Routes>
